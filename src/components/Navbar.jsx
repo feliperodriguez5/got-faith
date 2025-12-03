@@ -10,7 +10,7 @@ function Navbar() {
         <a href="">ropa interior</a>
         <a href="">calzado</a>
       </nav>
-      <Button text={'Carrito 0'} />
+      <Button text={'🛒 0'} />
     </header>
   );
 }

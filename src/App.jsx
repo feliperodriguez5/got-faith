@@ -1,12 +1,13 @@
 import Navbar from "./components/Navbar";
 import Button from "./components/Button";
+import ItemListContainer from "./components/ItemListContainer";
 
 
 function App() {
   return (
     <div>
       <Navbar />
-      <h1 className="text-3xl font-bold underline">Bienvenidos a GOT FAITH</h1>
+      <ItemListContainer ProductosDestacados="Productos Destacados" />
     </div>
   )
 }
