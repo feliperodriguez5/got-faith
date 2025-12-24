@@ -1,4 +1,4 @@
-function Button({ text }) {
+function CartWidget({ text }) {
     return (
         <button className="bg-red-900 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
             {text}
@@ -7,4 +7,4 @@ function Button({ text }) {
 }
 
 
-export default Button;
+export default CartWidget;
