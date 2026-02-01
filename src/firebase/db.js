@@ -1,4 +1,4 @@
-import { getFirestore, collection, getDocs, getDoc, doc, query, where } from "firebase/firestore";
+import { getFirestore, collection, getDocs, getDoc, doc, query, where, addDoc } from "firebase/firestore";
 import { app } from "./config";
 
 const db = getFirestore(app);
@@ -42,5 +42,20 @@ export const getProductById = async (productId) => {
     };
   } else {
     return null;
+  }
+};
+
+// Crear una orden de compra
+export const crearOrden = async (datosOrden) => {
+  try {
+    const docRef = await addDoc(collection(db, "ordenes"), {
+      ...datosOrden,
+      estado: "pendiente",
+      fechaCreacion: new Date()
+    });
+    return docRef.id;
+  } catch (error) {
+    console.error("Error al crear la orden:", error);
+    throw error;
   }
 };
