@@ -1,16 +1,66 @@
-# React + Vite
+# Got Faith - Tienda de Ropa Online
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una aplicación web moderna para comprar ropa básica para hombre. Construida con **React** y **Firebase/Firestore**.
 
-Currently, two official plugins are available:
+## 🛍️ ¿Qué es?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Got Faith es una tienda online donde puedes:
 
-## React Compiler
+- **Explorar productos** por categorías: Remeras, Pantalones, Gorras y Zapatos
+- **Ver detalles** de cada producto (precio, descripción, calificación)
+- **Agregar artículos al carrito** de compra
+- **Gestionar tu carrito** (aumentar/disminuir cantidades, eliminar productos)
+- **Calcular el total** de tu compra automáticamente
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎯 Características principales
 
-## Expanding the ESLint configuration
+✅ **Catálogo de productos** - 16 productos disponibles (4 por categoría)  
+✅ **Carrito de compras funcional** - Añade, elimina y actualiza cantidades  
+✅ **Filtrado por categorías** - Navega fácilmente entre categorías  
+✅ **Detalles del producto** - Información completa de cada artículo  
+✅ **Interfaz moderna** - Diseño limpio con Tailwind CSS  
+✅ **Base de datos en la nube** - Datos almacenados en Firestore  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologías utilizadas
+
+- **React 19** - Framework frontend
+- **React Router DOM** - Navegación entre páginas
+- **Firebase/Firestore** - Base de datos en la nube
+- **Tailwind CSS** - Estilos CSS modernos
+- **Vite** - Herramienta de desarrollo rápida
+
+## 📦 Productos
+
+Tenemos 4 categorías con 4 productos cada una:
+
+### Remeras
+- Remera Básica Blanca
+- Remera Básica Negra
+- Remera Gris Melange
+- Remera Azul Marino
+
+### Pantalones
+- Pantalón Vaquero Clásico
+- Pantalón Chino Beige
+- Pantalón Negro Elegante
+- Pantalón Deportivo Gris
+
+### Gorras
+- Gorra Snapback Negra
+- Gorra Baseball Blanca
+- Gorra Trucker Azul
+- Gorra Unisex Beige
+
+### Zapatos
+- Zapatillas Running Blancas
+- Sneakers Casual Negros
+- Zapatos Formales Café
+- Zapatillas Casual Grises
+
+## 🚀 Cómo usar
+
+1. Navega por las categorías usando el menú desplegable
+2. Haz clic en un producto para ver sus detalles completos
+3. Selecciona la cantidad y añade al carrito
+4. Visualiza tu carrito haciendo clic en el icono 🛒
+5. Aumenta, disminuye o elimina productos según necesites
